@@ -1,0 +1,49 @@
+/*GARANTIR INICIO PADRÃO*/
+
+html, body, strong, p, div, h1, header,a, h6, main, footer{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+	text-decoration: none;
+}
+:root{
+	--fonteTexto: 'Courier New', 'Courier', 'monospace';
+}
+body{
+	background-color: #60e6d9;
+}
+header{
+	background-color: black;
+	opacity: 90%;
+	display: block;
+	font-family: var(--fonteTexto);
+	font-weight:900;
+	text-align: center;
+	padding: 2.4rem;
+	margin: 4rem 4rem;
+	color: #ffeb3b;
+}
+header h1{
+	margin-bottom: 9px;
+}
+header strong{}
+
+main{
+	margin: 10px 100px;
+}
+main svg{
+width: 30px; 
+height: 20px;
+}
+main h2{
+	border-bottom: 1px solid #02352d;
+	border-radius: 21px;
+	color: #23E;
+}
+main p{}
+
+main button{
+	margin: 0 45%;
+	 
+}
